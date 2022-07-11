@@ -19,6 +19,6 @@ applanding:
 netlify:
   redirects:
     - from: https://cecil-url.netlify.app/*
-      to: https://url-demo.cecil.app/:splat
+      to: https://url.cecil.app/:splat
       status: 301
       force: true
