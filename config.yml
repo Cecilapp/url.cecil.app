@@ -1,0 +1,30 @@
+title: 🔗 Cecil/URL
+baseline: URL manager and shortener
+description: Cecil/URL is an URL manager and shortener, powered by Cecil (a static site generator).
+baseurl: https://url.cecil.app/
+image: url-shortener.png
+theme:
+  - applanding
+  - netlify
+applanding:
+  buttons:
+    - name: Netlify
+      url: https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/url&stack=cms
+      image: https://www.netlify.com/img/deploy/button.svg
+  source: https://github.com/Cecilapp/url
+  documentation: https://github.com/Cecilapp/url#readme
+  screenshot:
+  #  desktop:
+  #    light: staticast-preview.png
+  #    dark: staticast-preview-dark.png
+  #  mobile:
+  #    light: staticast-mobile-preview.png
+  #    dark: staticast-mobile-preview-dark.png
+    desktop: url-shortener.png
+  demo: https://url-demo.cecil.app
+netlify:
+  redirects:
+    - from: https://url.netlify.app/*
+      to: https://url-demo.cecil.app/:splat
+      status: 301
+      force: true
