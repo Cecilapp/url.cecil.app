@@ -1,6 +1,6 @@
-title: 🔗 Cecil/URL
+title: 🔗 URL
 baseline: URL manager & shortener
-description: Cecil/URL is an URL manager and shortener, powered by Cecil (a static site generator).
+description: URL is an URL manager and shortener, powered by Cecil (a static site generator).
 baseurl: https://url.cecil.app/
 image: url-shortener.png
 theme:
