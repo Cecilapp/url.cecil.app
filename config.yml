@@ -13,8 +13,8 @@ applanding:
       image: https://www.netlify.com/img/deploy/button.svg
   source: https://github.com/Cecilapp/url
   documentation: https://github.com/Cecilapp/url#readme
-  screenshot:
-    desktop: url-shortener.png
+  screenshot: url-shortener.png
+  screenshot_alt: URL home page
   demo: https://url-demo.cecil.app
 netlify:
   redirects:
